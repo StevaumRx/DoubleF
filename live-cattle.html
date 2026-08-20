@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Cattle · DoubleF Ranch</title>
+  <meta name="description" content="Browse available live cattle from DoubleF Ranch — single animals and lots.">
+  <link rel="icon" href="assets/img/logo-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo-mark.svg" alt="" class="brand-mark" width="40" height="40">
+        <span class="brand-name">Double<strong>F</strong><span class="brand-sub">Ranch</span></span>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle menu"><span></span></label>
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="live-cattle.html" aria-current="page">Live Cattle</a></li>
+          <li><a href="meat-cuts.html">Meat &amp; Cuts</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <p class="eyebrow">Live Cattle</p>
+        <h1>Available Cattle &amp; Lots</h1>
+        <p>Single animals and multi-head lots currently available. Tap a listing for full details, or reach out to reserve.</p>
+      </div>
+    </section>
+
+    <section class="section container">
+      <p id="listing-status">Loading listings…</p>
+      <div class="grid" id="listing-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-name">Double<strong>F</strong> Ranch</span>
+        <p>Raising quality cattle and farm-fresh beef you can trust.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="live-cattle.html">Live Cattle</a>
+        <a href="meat-cuts.html">Meat &amp; Cuts</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="footer-contact">
+        <a href="tel:+15551234567">(555) 123-4567</a>
+        <a href="mailto:info@doublef-ranch.example">info@doublef-ranch.example</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> DoubleF Ranch. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/common.js" defer></script>
+  <script type="module" src="assets/js/page-live-cattle.js"></script>
+</body>
+</html>

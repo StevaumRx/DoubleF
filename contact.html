@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact · DoubleF Ranch</title>
+  <meta name="description" content="Get in touch with DoubleF Ranch by phone, email, or contact form.">
+  <link rel="icon" href="assets/img/logo-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo-mark.svg" alt="" class="brand-mark" width="40" height="40">
+        <span class="brand-name">Double<strong>F</strong><span class="brand-sub">Ranch</span></span>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle menu"><span></span></label>
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="live-cattle.html">Live Cattle</a></li>
+          <li><a href="meat-cuts.html">Meat &amp; Cuts</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <p class="eyebrow">Get In Touch</p>
+        <h1>Contact Us</h1>
+        <p>Questions about a listing, reserving an animal, or placing a meat order? Reach out any time.</p>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="contact-layout">
+        <div class="contact-card">
+          <h3>Phone</h3>
+          <a href="tel:+15551234567">(555) 123-4567</a>
+          <h3 style="margin-top:1.25rem;">Email</h3>
+          <a href="mailto:info@doublef-ranch.example">info@doublef-ranch.example</a>
+        </div>
+
+        <form class="contact-card" id="contact-form">
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-name">Double<strong>F</strong> Ranch</span>
+        <p>Raising quality cattle and farm-fresh beef you can trust.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="live-cattle.html">Live Cattle</a>
+        <a href="meat-cuts.html">Meat &amp; Cuts</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="footer-contact">
+        <a href="tel:+15551234567">(555) 123-4567</a>
+        <a href="mailto:info@doublef-ranch.example">info@doublef-ranch.example</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> DoubleF Ranch. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/common.js" defer></script>
+  <script type="module" src="assets/js/page-contact.js"></script>
+</body>
+</html>

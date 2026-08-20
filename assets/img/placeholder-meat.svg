@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Meat product photo placeholder">
+  <rect width="400" height="300" fill="#f0e6dc"/>
+  <rect x="60" y="70" width="280" height="160" rx="12" fill="#e6d6c8"/>
+  <path d="M100 160 Q160 110 220 160 T340 155" fill="none" stroke="#b4715a" stroke-width="10" stroke-linecap="round" opacity="0.55"/>
+  <path d="M90 190 Q160 150 230 190 T340 185" fill="none" stroke="#b4715a" stroke-width="10" stroke-linecap="round" opacity="0.4"/>
+  <text x="200" y="270" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="15" fill="#8a7f6d" text-anchor="middle">Photo Coming Soon</text>
+</svg>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DoubleF Ranch — Quality Cattle &amp; Farm-Raised Beef</title>
+  <meta name="description" content="DoubleF Ranch raises quality cattle and farm-fresh beef. Browse live cattle and meat listings, or reach out to reserve.">
+  <link rel="icon" href="assets/img/logo-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo-mark.svg" alt="" class="brand-mark" width="40" height="40">
+        <span class="brand-name">Double<strong>F</strong><span class="brand-sub">Ranch</span></span>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle menu"><span></span></label>
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="live-cattle.html">Live Cattle</a></li>
+          <li><a href="meat-cuts.html">Meat &amp; Cuts</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow" style="color:#e8c98a;">Raised Right, Right Here</p>
+        <h1>Quality Cattle. Honest Beef. Straight From Our Ranch.</h1>
+        <p>DoubleF Ranch raises healthy, well-cared-for cattle and offers farm-fresh beef by the whole animal, half, quarter, or cut — no middleman, no shortcuts.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="live-cattle.html">View Live Cattle</a>
+          <a class="btn btn-outline" style="border-color:#fff;color:#fff;" href="meat-cuts.html">Shop Meat &amp; Cuts</a>
+        </div>
+      </div>
+      <img class="hero-hills" src="assets/img/hero-hills.svg" alt="">
+    </section>
+
+    <section class="section container">
+      <div class="feature-strip">
+        <div class="feature-item">
+          <h3>Grass-Fed, Well-Cared-For</h3>
+          <p>Our herd is raised on open pasture with attentive, hands-on management from birth to sale.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Farm-to-Table Beef</h3>
+          <p>Order a whole animal, half, quarter, or individual cuts — processed and ready on your schedule.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Simple, Direct Reserving</h3>
+          <p>Call, email, or pay online with Stripe to reserve an animal or an order — no accounts needed.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-header">
+        <p class="eyebrow">Featured</p>
+        <h2>Recent Listings</h2>
+        <p>A mix of our current live cattle and available meat &amp; cuts.</p>
+      </div>
+      <p id="featured-status">Loading listings…</p>
+      <div class="grid" id="featured-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-name">Double<strong>F</strong> Ranch</span>
+        <p>Raising quality cattle and farm-fresh beef you can trust.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="live-cattle.html">Live Cattle</a>
+        <a href="meat-cuts.html">Meat &amp; Cuts</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="footer-contact">
+        <a href="tel:+15551234567">(555) 123-4567</a>
+        <a href="mailto:info@doublef-ranch.example">info@doublef-ranch.example</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> DoubleF Ranch. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/common.js" defer></script>
+  <script type="module" src="assets/js/page-home.js"></script>
+</body>
+</html>
