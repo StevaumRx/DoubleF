@@ -20,7 +20,7 @@ export const STRIPE_ALLOWED_PREFIXES = [
 export const CONTACT = {
   phone: "(555) 123-4567",
   phoneHref: "+15551234567",
-  email: "info@doublef-ranch.example",
+  email: "info@doublefcattleco.example",
 };
 
 // How long fetched sheet data is cached in sessionStorage before re-fetching.

@@ -1,4 +1,4 @@
-# DoubleF Ranch Website
+# Double F Cattle Company Website
 
 A static site for a cattle ranching business — live cattle and meat/cuts
 listings pulled client-side from two Google Sheets, hosted on GitHub Pages.

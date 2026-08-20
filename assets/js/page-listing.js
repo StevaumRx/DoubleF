@@ -58,7 +58,7 @@ function renderError(message) {
 
 function renderListing(item) {
   clearNode(main);
-  document.title = `${item.title} · DoubleF Ranch`;
+  document.title = `${item.title} · Double F Cattle Company`;
 
   const photos = item.photos.length > 0 ? item.photos : [PLACEHOLDER[item.type]];
 
